@@ -41,7 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ECliente.cs" />
+    <Compile Include="EDescuento.cs" />
+    <Compile Include="EFactura.cs" />
+    <Compile Include="ELineaDocumento.cs" />
+    <Compile Include="EMovimiento.cs" />
+    <Compile Include="EPresupuesto.cs" />
+    <Compile Include="EProducto.cs" />
+    <Compile Include="EProveedor.cs" />
+    <Compile Include="ERecibo.cs" />
+    <Compile Include="ETarifa.cs" />
+    <Compile Include="ETipoCalculo.cs" />
+    <Compile Include="ETrabajoEspecial.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
